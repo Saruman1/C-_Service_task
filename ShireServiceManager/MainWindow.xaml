@@ -1,0 +1,19 @@
+<Window x:Class="ShireServiceManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Shire Service Manager" Height="450" Width="650">
+    <DockPanel Margin="10">
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+            <Button x:Name="StartButton" Content="Start service" Width="100" Click="StartButton_Click" />
+            <Button x:Name="StopButton" Content="Stop service" Width="100" Margin="8,0" Click="StopButton_Click" />
+            <Label Content="Status:" />
+            <Label x:Name="StatusLabel" FontWeight="Bold" />
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,10">
+            <Button Content="Refresh log" Width="100" Click="RefreshButton_Click" />
+            <Button Content="Clear" Width="100" Margin="8,0" Click="ClearButton_Click" />
+        </StackPanel>
+        <TextBox x:Name="LogBox" IsReadOnly="True" FontFamily="Consolas"
+                 VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" />
+    </DockPanel>
+</Window>

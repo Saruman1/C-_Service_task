@@ -1,0 +1,11 @@
+.vs/
+bin/
+obj/
+Release/
+Debug/
+*.user
+*.suo
+.codegraph/
+.claude/
+.mcp.json
+.vscode/
