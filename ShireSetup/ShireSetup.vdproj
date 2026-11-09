@@ -383,6 +383,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_C669738B32614FF7A36A10C69E60A63D"
+            {
+            "Name" = "8:Shire Service Manager"
+            "Arguments" = "8:"
+            "Description" = "8:Start/stop Shire Log Service and view its event log"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_DF9B03697AFB481894CB4ECEC0B0E7BF"
+            "Folder" = "8:_7FDE86113A364EF59F66E97B89CA70BB"
+            "WorkingFolder" = "8:_741AC844A5B24B42A8DD1D2DA47B9E43"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
